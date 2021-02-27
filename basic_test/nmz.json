@@ -1,0 +1,66 @@
+{
+	"action": "in_order",
+	"todo": [
+		{
+			"action": "delay",
+			"wait": {
+				"min": 10000,
+				"max": 15000
+			}
+		},
+		{
+			"action": "repeat",
+			"times": 360,
+			"todo": [
+				{
+					"action": "move_mouse",
+					"position": {
+						"top_left_x": 2461,
+						"top_left_y": 1013,
+						"bottom_right_x": 2493,
+						"bottom_right_y": 1044
+
+					}
+				},
+				{
+					"action": "delay",
+					"wait": {
+						"min": 50,
+						"max": 200
+					}
+				},
+				{
+					"action": "click",
+					"button": "left",
+					"delay": {
+						"min": 10,
+						"max": 25
+					}
+				},
+				{
+					"action": "delay",
+					"wait": {
+						"min": 50,
+						"max": 75
+					}
+				},
+				{
+					"action": "click",
+					"button": "left",
+					"delay": {
+						"min": 10,
+						"max": 25
+					}
+				},
+				{
+					"action": "delay",
+					"wait": {
+						"min": 55000,
+						"max": 58000
+					}
+				}
+			]
+		}
+	]
+}
+
