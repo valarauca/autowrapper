@@ -34,19 +34,3 @@ pub fn move_to_pos(target: &Point, time_slice: usize, speed: usize) -> Result<()
         let rand_y = thread_rng().sample(Uniform::new(retc.point.y, retc.max_y())));
     }
 }
-
-/// B/c Auto doesn't work like i want it too
-#[derive(Clone,Copy,PartialEq,Eq,Debug,Hash)]
-struct Point {
-    x: usize,
-    y: usize,
-}
-
-fn get_location() -> Result<Point,<Box<dyn Error>> {
-    let loc = location()
-    if !is_point_visible(loc.clone()) {
-        Err(build_err(format!("impossible pointer location")))
-    } else {
-        Ok(loc)
-    }
-}

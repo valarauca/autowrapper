@@ -1,0 +1,286 @@
+{
+	"action": "in_order",
+	"todo": [
+		{
+			"action": "delay",
+			"wait": 5000
+		},
+		{
+			"action": "repeat",
+			"times": 10000,
+			"todo": [
+        {
+		"action": "move_mouse",
+		"position": {
+			"top_left_x": 1236,
+			"top_left_y": 708,
+			"bottom_right_x": 1305,
+			"bottom_right_y": 765
+		},
+		"wait_after": {
+			"min": 350,
+			"max": 500
+		}
+	},
+	{
+		"action": "click",
+		"button": "left",
+		"wait_after": {
+			"min": 350,
+			"max": 500
+		}
+	},
+        {
+		"action": "move_mouse",
+		"position": {
+			"top_left_x": 2009,
+			"top_left_y": 939,
+			"bottom_right_x": 2031,
+			"bottom_right_y": 971
+		},
+		"wait_after": {
+			"min": 350,
+			"max": 500
+		}
+	},
+	{
+		"action": "click",
+		"button": "left",
+		"wait_after": {
+			"min": 350,
+			"max": 550
+		}
+	},
+	{
+		"action": "or",
+		"options": [
+			{
+				"action": "in_order",
+				"todo": [
+					{
+						"action": "move_mouse",
+						"position": {
+							"top_left_x": 1135,
+							"top_left_y": 213,
+							"bottom_right_x": 1168,
+							"bottom_right_y": 245
+						},
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "click",
+						"button": "left",
+						"wait": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "move_mouse",
+						"position": {
+							"top_left_x": 1214,
+							"top_left_y": 213,
+							"bottom_right_x": 1252,
+							"bottom_right_y": 250
+						},
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "click",
+						"button": "left",
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					}
+				]
+			},
+			{
+				"action": "in_order",
+				"todo": [
+					{
+						"action": "move_mouse",
+						"position": {
+							"top_left_x": 1214,
+							"top_left_y": 213,
+							"bottom_right_x": 1252,
+							"bottom_right_y": 250
+						},
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "click",
+						"button": "left",
+						"wait": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "move_mouse",
+						"position": {
+							"top_left_x": 1135,
+							"top_left_y": 213,
+							"bottom_right_x": 1168,
+							"bottom_right_y": 245
+						},
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "click",
+						"button": "left",
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"action": "tap_key",
+		"key": "esc",
+		"delay": {
+			"min": 10,
+			"max": 100
+		},
+		"wait_after": {
+			"min": 250,
+			"max": 550
+		}
+	},
+	{
+		"action": "or",
+		"options": [
+			{
+				"action": "in_order",
+				"todo": [
+					{
+						"action": "move_mouse",
+						"position": {
+							"top_left_x": 2073,
+							"top_left_y": 1111,
+							"bottom_right_x": 2102,
+							"bottom_right_y": 1148
+						},
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "click",
+						"button": "left",
+						"wait": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "move_mouse",
+						"position": {
+							"top_left_x": 2135,
+							"top_left_y": 1116,
+							"bottom_right_x": 2168,
+							"bottom_right_y": 1152
+						},
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "click",
+						"button": "left",
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					}
+				]
+			},
+			{
+				"action": "in_order",
+				"todo": [
+					{
+						"action": "move_mouse",
+						"position": {
+							"top_left_x": 2135,
+							"top_left_y": 1116,
+							"bottom_right_x": 2168,
+							"bottom_right_y": 1152
+						},
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "click",
+						"button": "left",
+						"wait": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "move_mouse",
+						"position": {
+							"top_left_x": 2073,
+							"top_left_y": 1111,
+							"bottom_right_x": 2102,
+							"bottom_right_y": 1148
+						},
+						"wait_after": {
+							"min": 250,
+							"max": 550
+						}
+					},
+					{
+						"action": "click",
+						"button": "left",
+						"wait_after": {
+							"min": 250,
+							"max": 500
+						}
+					}
+				]
+			}
+		]
+	},
+	{
+		"action": "delay",
+		"wait": {
+			"min": 500,
+			"max": 2500
+		}
+	},
+	{
+		"action": "tap_key",
+		"key": "space",
+		"delay": {
+			"min": 50,
+			"max": 75
+		},
+		"wait_after": {
+			"min": 17000,
+			"max": 20000
+		}
+	}
+			]
+		}
+	]
+}

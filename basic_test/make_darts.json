@@ -1,0 +1,53 @@
+{
+  "action": "register_position",
+  "todo": [
+    {
+      "action": "repeat",
+      "times": 8,
+      "todo": [
+        {
+          "action": "move_mouse",
+          "position": {
+            "top_left_x": 2001,
+            "top_left_y": 939,
+            "bottom_right_x": 2026,
+            "bottom_right_y": 966
+          },
+          "wait_after": {
+            "max": 110,
+            "min": 40
+          }
+        },
+        {
+          "action": "click",
+          "button": "left",
+          "delay": {
+            "max": 110,
+            "min": 40
+          }
+        },
+        {
+          "action": "move_mouse",
+          "position": {
+            "top_left_x": 2071,
+            "top_left_y": 941,
+            "bottom_right_x": 2099,
+            "bottom_right_y": 978
+          },
+          "wait_after": {
+            "max": 110,
+            "min": 40
+          }
+        },
+        {
+          "action": "click",
+          "button": "left",
+          "delay": {
+            "max": 110,
+            "min": 40
+          }
+        }
+      ]
+    }
+  ]
+}

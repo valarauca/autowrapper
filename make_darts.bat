@@ -1,0 +1,1 @@
+C:\Users\valarauca\Documents\rust_stuff\autowrapper\target\release\autowrapper.exe run C:\Users\valarauca\Documents\rust_stuff\autowrapper\basic_test\make_darts.json

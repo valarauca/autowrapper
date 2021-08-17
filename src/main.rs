@@ -18,6 +18,7 @@ pub mod scroll;
 pub mod time;
 use crate::cli::build_cli;
 
+#[windows_subsystem = "windows"]
 fn main() {
     match build_cli().get_matches().subcommand() {
         ("position", _) => {
